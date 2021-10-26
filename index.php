@@ -3,6 +3,7 @@
 session_start();
 $navbar = true;
 $title  = "Home";
+$var = "Hello world";
 require_once "core/init.php";
 
 $medicines = new DB();
